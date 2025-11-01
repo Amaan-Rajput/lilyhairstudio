@@ -56,7 +56,7 @@ const observerImg = new IntersectionObserver((entries) => {
     })
 }, {
     threshold: 0.1,
-    rootMargin: "150px 0px 0px 0px"
+    rootMargin: "150px 0px 25px 0px"
 })
 
 dataShowElement.forEach(a =>
@@ -71,3 +71,4 @@ dataShowImg.forEach(a =>
 dataShowSection.forEach(a =>
     observer.observe(a)
 )
+
